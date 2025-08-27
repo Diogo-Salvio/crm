@@ -68,3 +68,40 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+
+### `Propostas do projeto` 
+
+1. Recursos essenciais
+Estes são obrigatórios em qualquer CRM básico — ótimo para praticar CRUD, formulários e listagens:
+Login simples com autenticação (pode usar apenas estado no front ou JWT se quiser realista).
+Cadastro de clientes (nome, e-mail, telefone, empresa, status).
+Lista de clientes com busca e filtro (por nome, status, cidade).
+Editar e excluir clientes (CRUD completo).
+Visualização detalhada do cliente (com histórico de interações em uma aba ou modal).
+Notas rápidas (ex.: “Ligado dia 27/08, pediu proposta”).
+
+2. Recursos intermediários (bom para subir o nível)
+Aqui você começa a mexer com estado global, componentização mais séria e integrações:
+Pipeline / Funil de vendas → arrastar cards com clientes entre etapas (prospect, contato, proposta, fechado).
+Campos personalizados (permitir que o usuário crie um campo extra como “Produto de interesse”).
+Tagging de clientes (ex.: VIP, Inadimplente, Novo lead).
+Histórico automático → sempre que editar, salvar uma “linha do tempo” (ótimo pra aprender arrays de eventos).
+Dashboard simples com gráficos (ex.: quantos clientes ativos por mês, total de vendas por etapa — pode usar Recharts ou Chart.js).
+
+3. Recursos avançados (para aprender coisas do mercado)
+Esses já te fazem tocar em temas que as empresas usam de verdade:
+Autenticação real com JWT + backend ou Firebase Auth.
+Integração com API externa (ex.: buscar CNPJ na Receita WS ou OpenCNPJ e preencher dados automaticamente).
+Upload de arquivos no cliente (ex.: anexar contrato ou documento PDF).
+Notificações ou lembretes automáticos (ex.: alerta “esse cliente não tem contato há 15 dias”).
+Permissões de usuário (admin vê tudo, vendedor vê só seus clientes).
+Exportar para Excel (gera CSV ou XLSX com lista de clientes).
+Tema claro/escuro e personalização visual (aprende sobre contextos e CSS variables).
+
+4. Recursos “wow” (se sobrar tempo e energia)
+Pra deixar o projeto com cara de profissional e aprender muito:
+Chat interno no cliente (simples, apenas mensagens associadas ao cliente).
+Integração fake com e-mail (ex.: salvar no histórico “enviado email para X” ao clicar num botão).
+Busca inteligente (usar debounce + filtragem dinâmica).
+Deploy real (Vercel ou Netlify) e mock de API (com JSON-Server, MirageJS ou Supabase).

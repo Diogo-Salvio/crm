@@ -1,10 +1,10 @@
+import Header from "./components/header";
 
-import './App.css';
 
 function App() {
   return (
     <div className="App">
-      <h1>Novo Crm</h1>
+      <Header />
     </div>
   );
 }
