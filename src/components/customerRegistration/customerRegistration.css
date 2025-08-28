@@ -1,0 +1,28 @@
+.customerRegistration {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.form {
+  display: grid;
+  grid-template-columns: 1fr 1fr; 
+  gap: 1rem; 
+  max-width: 600px;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.checkbox {
+  grid-column: span 2; 
+}
+
+.status {
+    display: flex;
+    gap: 8px;
+}
